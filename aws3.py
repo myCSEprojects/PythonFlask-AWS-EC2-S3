@@ -5,8 +5,8 @@ from boto3.session import Session
 
 app = Flask(__name__)
 
-session = Session(aws_access_key_id='AKIAJVSJVWHVUV5YFGCA',
-                  aws_secret_access_key='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',
+session = Session(aws_access_key_id='',
+                  aws_secret_access_key='',
                   region_name='us-west-2')
 
 
